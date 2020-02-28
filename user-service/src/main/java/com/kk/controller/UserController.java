@@ -19,7 +19,7 @@ public class UserController {
     private UserServiceImpl userService;
 
     @RequestMapping("/info")
-    public String UserInfoAction(@RequestParam String userName, @RequestParam Integer age) {
+    public String userInfoAction(@RequestParam String userName, @RequestParam Integer age) {
         return userService.getUserInfo(userName, age);
     }
 }

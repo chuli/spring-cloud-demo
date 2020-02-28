@@ -1,9 +1,9 @@
 server:
-  port: 8091
+  port: 8092
 
 spring:
   application:
-    name: user-service # 在注册中心中显示和调用的名称
+    name: mall-admin # 在注册中心中显示和调用的名称
 
 eureka:
   client:
