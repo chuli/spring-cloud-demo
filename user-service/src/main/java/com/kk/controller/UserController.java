@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * @Author: kk
  * @Date: 2020-02-19 21:01
@@ -19,7 +21,7 @@ public class UserController {
     private UserServiceImpl userService;
 
     @RequestMapping("/info")
-    public String userInfoAction(@RequestParam String userName, @RequestParam Integer age) {
-        return userService.getUserInfo(userName, age);
+    public String userInfoAction(@RequestParam String userName, @RequestParam Integer age, HttpServletRequest request) {
+        return "from port " + request.getServerPort() + " " + userService.getUserInfo(userName, age);
     }
 }

@@ -1,0 +1,19 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: mall-api # 在注册中心中显示和调用的名称
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eureka/ # 将自己注册到该地址的Eureka上面去
+  instance:
+    prefer-ip-address: true
+
+service:
+  user:
+    name: http://user-service # 源服务 application name
+    api:
+      info: /user/info # 服务提供者的具体接口名

@@ -12,6 +12,7 @@
         <module>eureka-server</module>
         <module>user-service</module>
         <module>mall-admin</module>
+        <module>mall-api</module>
     </modules>
 
     <properties>
@@ -21,6 +22,7 @@
         <spring.cloud.version>Finchley.SR1</spring.cloud.version>
         <spring.eureka.version>2.1.2.RELEASE</spring.eureka.version>
         <spring.openfeign.version>2.1.2.RELEASE</spring.openfeign.version>
+        <spring.ribbon.version>2.1.2.RELEASE</spring.ribbon.version>
     </properties>
 
     <parent>
@@ -68,6 +70,12 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-openfeign</artifactId>
                 <version>${spring.openfeign.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+                <version>${spring.ribbon.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
