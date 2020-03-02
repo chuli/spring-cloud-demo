@@ -26,7 +26,7 @@
         <spring.eureka.version>2.1.2.RELEASE</spring.eureka.version>
         <spring.openfeign.version>2.1.2.RELEASE</spring.openfeign.version>
         <spring.ribbon.version>2.1.2.RELEASE</spring.ribbon.version>
-        <spring.config.server.version>2.0.1.RELEASE</spring.config.server.version>
+        <spring.config.server.version>2.0.5.RELEASE</spring.config.server.version>
         <spring.config.client.version>2.1.3.RELEASE</spring.config.client.version>
     </properties>
 
