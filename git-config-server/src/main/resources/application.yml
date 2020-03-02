@@ -1,0 +1,19 @@
+server:
+  port: 8094
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          # git 服务器地址
+          uri: https://github.com/chuli/spring-cloud-config.git
+          # git 用户名
+#          username:
+          # git 密码
+#          password:
+          # 搜索该目录下所有满足条件的配置文件，可以添加多个目录，用逗号分隔
+          search-paths: SC-DEMO-CONFIG
+
+  application:
+    name: git-config-server
