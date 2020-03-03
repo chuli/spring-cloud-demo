@@ -12,5 +12,5 @@
 |user-service|服务提供者|8091|[服务提供与消费（上篇）](https://juejin.im/post/5e5734e56fb9a07cc01a249a)|
 |mall-admin|服务消费者|8092|[服务提供与消费（下篇）](https://juejin.im/post/5e58d7f16fb9a07c7b783594)|
 |mall-api|负载均衡|8093|[Spring Cloud 负载均衡器 Ribbon](https://juejin.im/post/5e5b88a06fb9a07cd443be3a)|
-|git-config-server|git配置中心server|8094|[Spring Cloud Config配置中心]()|
-|git-config-client|git配置中心client|8095|[Spring Cloud Config配置中心]()|
+|git-config-server|git配置中心server|8094|[Spring Cloud Config配置中心](https://juejin.im/post/5e5d09a551882549194971c8)|
+|git-config-client|git配置中心client|8095|[Spring Cloud Config配置中心](https://juejin.im/post/5e5d09a551882549194971c8)|
